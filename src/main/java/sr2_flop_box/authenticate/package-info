@@ -1,0 +1,13 @@
+/**
+ * Ce paquetage contient toutes les classes permettant de créer un filtre pour les utilisateurs
+ * <p>
+ * Ce paquetage utilise une interface pour créer une annotation et crée des requetes
+ * </p>
+ *
+ * @since 1.0
+ * @author sema altinkaynak
+ * @version 1.0
+ */
+
+
+package fil.com;
