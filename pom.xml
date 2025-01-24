@@ -83,13 +83,12 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <inherited>true</inherited>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
+	    	<artifactId>maven-compiler-plugin</artifactId>
+	    	<version>3.10.1</version> <!-- Version compatible avec Java 17 -->
+	    	<configuration>
+			<source>17</source> <!-- Version source de Java -->
+			<target>17</target> <!-- Version cible de Java -->
+	    	</configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
